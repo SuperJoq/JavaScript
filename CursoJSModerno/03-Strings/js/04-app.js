@@ -1,0 +1,12 @@
+const  producto = "       Monitor 20\" pulgadas          ";
+console.log(producto);
+console.log(producto.length)
+
+
+
+
+// Eliminar espacios del una cadena de texto
+
+console.log(producto.trimStart());
+console.log(producto.trimEnd());
+console.log(producto.trim());
