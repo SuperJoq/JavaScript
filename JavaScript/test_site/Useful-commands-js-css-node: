@@ -1,8 +1,0 @@
-Useful commands js css node:
-EKT02J1WKMACLAP:~ jgcruzh$ cd /Users/jgcruzh/Desktop/mern-freelance/JavaScript/test_site/
-EKT02J1WKMACLAP:test_site jgcruzh$ ls
-index.html
-EKT02J1WKMACLAP:test_site jgcruzh$ browser-sync --start --server --directory --files "*"
-
-GitHubTokens:
-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
