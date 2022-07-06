@@ -50,4 +50,6 @@ console.table(carrito);
 carrito.pop();
 console.table(carrito);
 
-//
+//Eliminar producto en cualquier posicion del arreglo
+
+console.table()
