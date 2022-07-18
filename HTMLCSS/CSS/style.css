@@ -1,0 +1,120 @@
+#titulo{
+    color: tomato;
+}
+
+/* para indicar una clase en css se pone punto */
+
+p.especial{
+    color: mediumseagreen;
+}
+
+p.texto{
+    color: slateblue;
+}
+
+div p {
+    color: aquamarine
+}
+
+div h2, div h3{
+    color:brown
+}
+
+* {
+ font-size: 24px;
+ /* color:black; */
+}
+
+/*
+.color{
+    color: #ff0000;
+
+}
+*/
+/*
+.color{
+    color: rgb(0,0,255);
+}
+*/
+
+
+.color{
+    /* border: 5px red outset; */
+
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+
+/*Numeral # es utilizado para indicar el id y punto . es utilizado para referenciar clases*/ 
+#fondo{
+    background-color: rgba(255, 0, 0);
+    /* opacity: 0.3; */
+    height: 300px;
+  /*   background-image: url('MarcoAurelio.webp');
+    background-repeat: repeat-y;
+    background-position: center bottom; */
+    background: #f00 url('MarcoAurelio.webp') repeat-y center bottom /100px 100px;
+
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 200px;
+    width: 50px;
+    overflow: scroll;
+    outline:1px solid red
+
+}
+.text {
+    font-family: Roboto, sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+    
+
+}
+
+
+/* Estados de los links son 4
+1.- Cuando no han sido visitados
+2.- Cuando ha sido visitado
+3.- Cuando pasamos el mouse por ensiama de el 
+4.- Cundo el link se encuentra activo
+
+*/
+
+
+
+/* Agregar estos elñemenot en orden ya qu eesta correlacionado es decir si se quiere utilizar visted primero se debe agregar link */
+a:link{
+    color: blueviolet
+}
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:hover{
+    color: red;
+}
