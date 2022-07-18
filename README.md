@@ -1,1 +1,1 @@
-This is a directory that contains many projects to become Fulltack-MERN developer
+This is a directory containing many projects to become Fulltack-MERN developer
